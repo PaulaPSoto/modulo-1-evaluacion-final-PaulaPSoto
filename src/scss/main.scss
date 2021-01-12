@@ -80,7 +80,7 @@
     margin: 0 15px;
     // background-color: blue;
 }
-.section__container {
+.section__container2 {
     height:376px ;
     display: flex;
     flex-direction:column;
@@ -134,3 +134,116 @@
     size: 20px;
     padding: 0 25px 0 26px; 
 }
+.container3{
+    // height:100vh;
+    background-color:#eff9ff;
+    display: grid;
+    grid-template-columns:repeat(1fr) ;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-gap:45px;
+}
+.container3--item1{
+    top: 30px;
+    text-align: center;
+    grid-column: 1;
+    font-family:"Roboto Slab",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize; 
+
+}
+.container3--item2{
+    text-align: center;
+    grid-column: span 1;
+}
+
+.container3--item3{
+    text-align: center;
+    grid-column: span 1;
+
+}
+
+.container3--item4{
+    text-align: center;
+    grid-column: span 1;
+}
+
+.container_3--item5{
+    text-align: center;
+    grid-column: span 1;
+}
+.container3__item2--title {
+    font-family:"Roboto Slab",sans-serif;
+    font-weight: bold;
+    margin-left: 53px;
+    margin-right: 53px;
+    font-size: 18px;
+    color: #000000;
+}
+.container3__item2--text {
+    font-family:"Roboto-Regular",sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.container3__item2--button {
+    text-align: center;
+    grid-column: span 1;
+    background-color:#f26002 ;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Roboto-Medium',sans-serif;
+    border: 2px solid #f26002 ;
+    padding: 10px 30px;
+    border-radius: 23px;
+    margin-bottom: 45px;
+    margin-left: 53px;
+    margin-right: 53px;
+}
+
+// footer
+.page__footer {
+    background-color: #304268;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.footer__nav {
+    font-family:"Roboto-Regular",sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.nav-links {
+    text-decoration: none;
+    font-family:"Roboto-Regular",sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer__copy {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family:"Roboto-Regular",sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+  
