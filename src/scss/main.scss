@@ -227,7 +227,7 @@
 
 }
     
-.footer__nav {
+.footer__nav1 .footer__nav2 {
     font-family:"Roboto-Regular",sans-serif;
     font-size: 16px;
     line-height: 30px;
@@ -312,11 +312,34 @@ p {
 }
 .container3__item2--title {
     font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .container3__item2--text {
     font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
+.page__footer {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around ;
+    align-items: center;
+    
+}
+.container_3--img {
+  order: 1;  
+}
+.footer__nav1 {
+   
+}
+.footer__nav2 {
+order: -1;
+}
+.footer__copy {
 
+}
 }
 
 
