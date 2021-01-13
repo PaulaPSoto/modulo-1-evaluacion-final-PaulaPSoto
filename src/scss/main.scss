@@ -319,21 +319,26 @@ p {
     margin-left: 0;
     margin-right: 0;
 }
-.page__footer {
-    
+
+.page__footer--box1 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 53px;
+
+
+}
+.page__footer--box2 {
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
-    
-}
-// .container_3--img {
-//     order:2 ;
 
-// }
-// .footer__nav2 {
-//     order: -1;
-// }
+}
 
 }
 @media all and (min-width: 1200px) {
