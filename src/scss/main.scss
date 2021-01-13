@@ -40,6 +40,8 @@
     margin-left: 14px;
 }
 
+
+
 .h1-text {
     font-family: 'Roboto Slab',sans-serif;
     color:#ffffff;
@@ -134,6 +136,7 @@
     size: 20px;
     padding: 0 25px 0 26px; 
 }
+// grid
 .container3 {
     background-color:#eff9ff;
     display: grid;
@@ -269,6 +272,52 @@ p:hover {
 p {
     transition: color 0.8s linear 0.2s;
 }*/
+
+
+/* MEDIAQUERIE TABLET */
+@media all and (min-width: 768px) {
+
+
+ /* grid */
+.container3 {
+    background-color:#eff9ff;
+    // display: grid;
+    grid-template-columns: (1fr 1fr 1fr);
+    grid-template-rows: 33vh 33vh 33vh;
+    grid-gap:45px;
+  }
+  .container3--item1{
+    // top: 30px;
+    // text-align: center;
+    grid-column: 1/4;
+    font-size: 26px;
+}
+.container3--item2{
+    // text-align: center;
+    grid-column: 1/2
+    
+}
+.container3--item3 {
+    grid-column: 2/3;
+}
+.container3--item4 {
+
+    grid-column: span 1;
+}
+
+.container3--item5{
+    grid-column: 2/3;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+.container3__item2--title {
+    font-size: 24px;
+}
+.container3__item2--text {
+    font-size: 20px;
+}
+
+}
 
 
 
