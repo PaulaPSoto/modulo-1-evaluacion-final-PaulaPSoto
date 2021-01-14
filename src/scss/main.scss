@@ -13,6 +13,7 @@
     background-position: top;
     background-repeat: no-repeat;
     min-width: 300px;
+    background-size: cover;
 }
 
 .container_1 {
@@ -72,6 +73,19 @@
     border-radius: 50%;
     margin-bottom: 53px;
     
+}
+.new__section {
+    width: 100%;
+    background-color: #f26002;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new__section--link {
+    color: #ffffff;
+    text-decoration: none;
 }
 
  /* main*/
@@ -280,7 +294,14 @@
 /* MEDIAQUERIE TABLET */
 @media all and (min-width: 768px) {
 
-
+    .new__section {
+        
+        background-color:#0271bc;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+    
  /* grid */
 .container3 {
     background-color:#eff9ff;
