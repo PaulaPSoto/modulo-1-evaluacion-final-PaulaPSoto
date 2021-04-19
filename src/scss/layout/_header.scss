@@ -1,0 +1,33 @@
+/* header */
+
+.header {
+  background-image: url("../images/cover.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  min-width: 300px;
+}
+
+.container_1 {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1__nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+}
+
+.header_logo {
+  width: 16px;
+  height: 14px;
+  margin-top: 15px;
+  margin-left: 14px;
+}
