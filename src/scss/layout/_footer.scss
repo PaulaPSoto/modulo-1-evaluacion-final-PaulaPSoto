@@ -11,25 +11,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer__box1--img {
-  width: 45px;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #faf9f9;
-  border-radius: 50%;
-  margin-bottom: 53px;
+  transform: translate(0, -23%);
+  &--img {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf9f9;
+    border-radius: 50%;
+    margin-bottom: 53px;
+  }
 }
 
 .footer__box2 {
   display: flex;
   flex-direction: column;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 700px;
+  }
 }
 
-.footer__box2--nav {
+.footer__box2--nav1 {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   line-height: 30px;
@@ -38,10 +44,19 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    margin: 45px;
+  }
 }
 
 .navList1__li {
   list-style: none;
+  @media all and (min-width: 768px) {
+    text-align: start;
+  }
+  // @media all and (min-width: 1200px) {
+  //   margin: 0px 600px 15px 600px;
+  // }
 }
 // <ul class="navList1">
 .navList1__li--link {
@@ -50,13 +65,31 @@
   line-height: 30px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
+
   text-decoration: none;
 }
 // footer nav2
-
+.navList2 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    margin: 40px;
+  }
+}
 .navList2__li {
   list-style: none;
+  @media all and (min-width: 768px) {
+    text-align: start;
+  }
+  // @media all and (min-width: 1200px) {
+  //   margin: 0px 600px 15px 600px;
+  // }
 }
 
 .navList2__li--link {
@@ -77,4 +110,11 @@
   font-size: 14px;
   color: #ffffff;
   margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    text-align: start;
+    margin: 40px;
+  }
+  // @media all and (min-width: 1200px) {
+  //   margin: 0px 600px 15px 600px;
+  // }
 }
